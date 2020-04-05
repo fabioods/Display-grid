@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alinhamento - Content</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+      }
+      .container {
+        background-color: #000;
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 5px;
+      }
+
+      .container div {
+        background-color: white;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+      }
+
+      .container div .item {
+        background-color: #7159c1;
+        width: 50%;
+        height: 50%;
+      }
+
+      .container div .item-1 {
+        justify-self: end;
+        align-self: start;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <div class="item item-1"></div>
+      </div>
+      <div>
+        <div class="item"></div>
+      </div>
+      <div>
+        <div class="item"></div>
+      </div>
+      <div>
+        <div class="item"></div>
+      </div>
+      <div>
+        <div class="item"></div>
+      </div>
+      <div>
+        <div class="item"></div>
+      </div>
+      <div>
+        <div class="item"></div>
+      </div>
+      <div>
+        <div class="item"></div>
+      </div>
+      <div>
+        <div class="item"></div>
+      </div>
+    </div>
+  </body>
+</html>
