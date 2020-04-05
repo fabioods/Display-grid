@@ -29,9 +29,9 @@ Vamos separar em 2 grupos:
 - display: grid;
 - grid-template-columns;
 - grid-template-rows;
-- grid-gap
-  - grid-row-gap
-  - grid-column-gap
+- gap
+  - row-gap
+  - column-gap
 - grid-template-areas;
 
 ... e mais 4 propriedades de **alinhamento**!
